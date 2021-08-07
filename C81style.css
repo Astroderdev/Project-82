@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+	color: red; 
+	font-size: 40px;
+}
+.body_background {
+	background-image: url(bg1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#myCanvas{
+  border: 10px ridge whitesmoke;
+  background-color: white;
+}
+button{
+	width: 100px;
+	background-color: lime;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	transform: translateY(40px) translateX(-100px);
+}
+#color{
+	transform: translateX(40px);
+}
+.coloe{
+	transform: translateX(40px);
+}
